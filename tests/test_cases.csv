@@ -1,0 +1,16 @@
+Test ID,Module,Test Case,Expected Result,Status
+TC01,Resume Upload,Upload valid PDF,PDF is accepted and text is extracted,Pass
+TC02,Resume Upload,Upload valid DOCX,DOCX is accepted and text is extracted,Pass
+TC03,Resume Upload,Upload unsupported TXT,Application rejects file type,Pass
+TC04,Resume Upload,Upload file above 5 MB,Application displays size error,Pass
+TC05,Text Cleaning,Resume contains repeated spaces,Whitespace is normalized,Pass
+TC06,Text Cleaning,Resume contains C++,C++ remains identifiable,Pass
+TC07,Skill Extraction,Resume contains Python and SQL,Both skills are detected,Pass
+TC08,Skill Extraction,Resume contains unrelated words,Unrelated words are not reported as skills,Pass
+TC09,Matching,Resume with strong Data Analyst skills,Data Analyst receives a high relative score,Pass
+TC10,Matching,Add a required skill to resume,Relevant role score should not decrease due to skill coverage,Pass
+TC11,Skill Gap,Select Machine Learning Engineer,Found and missing required skills are displayed,Pass
+TC12,Roadmap,Missing skills exist,Each missing skill receives a learning topic,Pass
+TC13,Dashboard,Upload resume and open recommendations,Ranked role table and chart are shown,Pass
+TC14,Report,Generate report,Downloadable text report contains score and gaps,Pass
+TC15,Responsible AI,Resume includes age/gender/religion,Those attributes are not used by scoring logic,Pass

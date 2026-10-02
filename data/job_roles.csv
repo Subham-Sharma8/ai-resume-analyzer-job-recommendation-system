@@ -1,0 +1,11 @@
+role,description,required_skills
+Data Analyst,"Analyze structured data, create reports and dashboards, clean datasets and communicate insights","python,sql,excel,pandas,power bi,statistics"
+Machine Learning Engineer,"Build and deploy machine learning models and production APIs","python,machine learning,scikit-learn,pandas,fastapi,docker,sql,git"
+AI Engineer,"Develop AI applications using deep learning, LLMs, retrieval and APIs","python,deep learning,llm,rag,apis,pytorch,transformers,docker"
+NLP Engineer,"Develop natural language processing systems and transformer-based applications","python,nlp,transformers,hugging face,pytorch,scikit-learn,git"
+Computer Vision Engineer,"Build image and video analysis systems using classical and deep learning computer vision","python,opencv,cnn,yolo,pytorch,numpy,git"
+Python Developer,"Develop maintainable Python applications, APIs and automation tools","python,fastapi,flask,sql,git,apis,docker"
+Data Scientist,"Perform statistical analysis, feature engineering and predictive modeling","python,pandas,numpy,statistics,machine learning,scikit-learn,sql"
+Backend Developer,"Develop server-side APIs, databases and deployable services","python,fastapi,sql,postgresql,docker,git,apis"
+Cloud/DevOps Engineer,"Automate deployment and infrastructure for reliable applications","docker,aws,linux,git,ci/cd,kubernetes,python"
+MLOps Engineer,"Operationalize machine learning models with pipelines, containers and monitoring","python,docker,mlflow,aws,kubernetes,ci/cd,git,machine learning"
